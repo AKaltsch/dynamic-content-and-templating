@@ -15,7 +15,7 @@ const app = express();
 //     extname: "hbs",
 //   })
 // );
-app.set("view engine", "hbs");
+app.set("view engine", "ejs");
 // app.set("view engine", "pug");
 app.set("views", "views");
 
